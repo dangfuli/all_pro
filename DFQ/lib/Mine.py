@@ -1,5 +1,5 @@
 # coding=utf-8
-from lib.utils.getConfig import *
+from DFQ.lib.utils.getConfig import *
 elements = getElement(r"D:\auto\DFQ\elements\login.json")
 print(elements)
 def login(driver,phone="",verify=""):

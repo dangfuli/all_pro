@@ -62,7 +62,7 @@ class ExcelUntil:
                     ## sheet变量
                     self.sheet = self.workbook.sheet_by_name(sheetName)
                     print('sheet切换成功，当前在：%s'%sheetName)
-                except Exception as e:
+                except Exception:
                     print('sheet名称不正确/不存在,\n所有sheet共计%s个，有%s\n' % (len(self.workbook.sheet_names()),self.workbook.sheet_names()))
                     self.sheet = self.workbook.sheet_by_index(0)
                     print('已切换到%s'% self.workbook.sheet_names()[0])
@@ -71,7 +71,7 @@ class ExcelUntil:
                     self.sheet = self.workbook.sheet_by_index(sheetIndex)
 
                     print('sheet切换成功，当前在：第%s个。名称：%s'%(sheetIndex+1,self.workbook.sheet_names()[sheetIndex]))
-                except Exception as e:
+                except Exception:
                     print('sheet索引错误，请输入正确索引。\n所有sheet共计%s个，有%s' % (len(self.workbook.sheet_names()),self.workbook.sheet_names()))
                     self.sheet = self.workbook.sheet_by_index(0)
 
