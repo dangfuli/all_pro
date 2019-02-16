@@ -17,14 +17,15 @@ except ImportError:
     time.sleep(5)
     import easygui
 import datetime
-from  common import get_excel_data   # 获取桌面Excel 第一个sheet中的第一列中数据
-from common import manage_txt
+from all_until_script.get_excel_data import *   # 获取桌面Excel 第一个sheet中的第一列中数据
+#from common import manage_txt
 import random
 class TestGetLicensePlate:
     # def __init__(self,Agent,CityCode):
     #    self.Agent = Agent
     #    self.CityCode = CityCode
-    def result(self):
+    @staticmethod
+    def result():
         msg = '使用方法：\n1、新建一个Excel(不用改名字，放在桌面) \n2、打开平时写车牌的网站，复制车牌（可以筛选一下成功率高的。）\n3、将车牌复制到新建的excel表里（第一个sheet页，车牌排列在第一列中）\n4、输入经纪人id以及城市id'
         title = '车牌信息'
         fieldNames = ["Agent","城市id"]
@@ -34,7 +35,7 @@ class TestGetLicensePlate:
         count = 1  # 后面记录执行几个车牌
         now = datetime.datetime.now()  # 获取本机时间，datetime类型
         now.strftime('%Y-%m-%d %H:%M:%S')
-        d = get_excel_data.ExcelUntil().get_excel()     # 调用获取桌面的Excel数据
+        d = ExcelUntil().get_excel()     # 调用获取桌面的Excel数据
         for i in d:         # for循环，遍历所有的车牌
             num = random.choice(['a','b','c''d','e','f','g','h','i','j','k','l','m'])
             url = 'http://qa.interfaces.com/api/CarInsurance/getreinfo?LicenseNo=%s&CityCode=%s&Agent=%s&CustKey=testtestt%s&SecCode=e9779d2c054d69306fc9fc0b93bfa8a9&CanShowNo=1&Group=1&TimeFormat=1' % (str(i),str(enterlist[1]),str(enterlist[0]),num)
@@ -97,7 +98,9 @@ class TestGetLicensePlate:
                 else:
                     assert_car_type_list.append('私车')
                     # 判断身份证信息
-                    if str(CredentislasNum).replace(' ', '').isalnum() or str(InsuredIdCard).replace(' ','').isalnum() or str(HolderIdCard).replace(' ', '').isalnum() and len(str(HolderIdCard).replace(' ', '')) == 18 and len(str(InsuredIdCard).replace(' ', '')) == 18 and len(str(CredentislasNum).replace(' ', '')) == 18:
+                    if str(CredentislasNum).replace(' ', '').isalnum() or str(InsuredIdCard).replace(' ', '').isalnum() or \
+                            str(HolderIdCard).replace(' ', '').isalnum() and len(str(HolderIdCard).replace(' ', '')) == 18 and \
+                            len(str(InsuredIdCard).replace(' ', '')) == 18 and len(str(CredentislasNum).replace(' ', '')) == 18:
                         pass
                     else:
                         assert_car_type_list.append('身份证为空或格式不正确')
@@ -108,10 +111,10 @@ class TestGetLicensePlate:
                     assert_car_type_list.append('车主与被保险人不一致')
 
                 # 判断货车
-                if CarUsedType == 6 or CarUsedType == 7 :
+                if CarUsedType == 6 or CarUsedType == 7:
                     assert_car_type_list.append('货车')
                 # 判断车价超过150万
-                if  j['UserInfo']['PurchasePrice'] >= 1500000:
+                if j['UserInfo']['PurchasePrice'] >= 1500000:
                     assert_car_type_list.append('车价超过150万')
                 # 判断三证合一
                 if j['UserInfo']['IdType'] == 9:
@@ -130,7 +133,7 @@ class TestGetLicensePlate:
                 if '电动' in j['UserInfo']['ModleName']:
                     assert_car_type_list.append('新能源车')
                 # 判断车辆超过8年
-                RegisterDate_str = str(j['UserInfo']['RegisterDate']) + ' ' + '23:59:59'  # 获取车辆购买时间
+                RegisterDate_str = '{0} 23:59:59'.format(str(j['UserInfo']['RegisterDate']))  # 获取车辆购买时间
                 # 将str格式时间转化成datetime
                 registerdate_date = datetime.datetime.strptime(RegisterDate_str, '%Y-%m-%d %H:%M:%S')
                 assert_time = now - registerdate_date  # 将本机时间减去购买时间，时间大于2920天，即超过8年
@@ -195,7 +198,9 @@ class TestGetLicensePlate:
             assert_car_type_list = []  # 清空判断列表
         bool = easygui.boolbox(msg='已经读取完毕，是否继续？',choices=['继续','取消'])
         if bool == True:
-            manage_txt.ManageTxt(work_path).txt()
+            pass
+            # 需要自行写方法，写入到txt文件
+            # manage_txt.ManageTxt(work_path).txt()
 
     def write_txt(self,plate,type,time,content,filename):
         try:
