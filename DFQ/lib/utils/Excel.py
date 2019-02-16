@@ -43,6 +43,7 @@ class ExcelUntil:
                 self.workbook = xlrd.open_workbook(os.path.join(os.path.dirname(excel_path), i))
                 self.excel_path = os.path.join(os.path.dirname(excel_path), i)
                 print("找到文件，认为打开excel")
+                break
         ## 没找到excel
         if not __has_excel:
             ext = os.path.splitext(excel_path)
@@ -150,12 +151,12 @@ class ExcelUntil:
         ws.write(x,y,"123")
         wb.save(self.excel_path)
 if __name__ == '__main__':
-    p = r'C:\Users\dangfuli_v\Desktop\baobei\1'
+    p = r'/Users/dangfuli/Documents/p.xlsx'
     test = ExcelUntil(p)
-    # t_read = test.read_row_excel(row=3)
-    # t_read1 = test.read_row_excel(sheetIndex=1)
-    # t1_read = test.read_row_excel(sheetIndex=10)
-    # t3_read = test.read_row_excel(sheetName='123')
-    # t4_read = test.read_row_excel(sheetName='Sheet2')
+    # t_read = test.read_row(row=3)
+    # t_read1 = test.read_row(sheetIndex=1)
+    # t1_read = test.read_row(sheetIndex=10)
+    # t3_read = test.read_row(sheetName='123')
+    # t4_read = test.read_row(sheetName='Sheet2')
     # cr = test.read_col(col=2,sheetIndex=1)
-    test.update_cell(1,1)
+    # test.update_cell(1,1)
