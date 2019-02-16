@@ -43,6 +43,7 @@ class ExcelUntil:
                 self.workbook = xlrd.open_workbook(os.path.join(os.path.dirname(excel_path), i))
                 self.excel_path = os.path.join(os.path.dirname(excel_path), i)
                 print("找到文件，认为打开excel")
+                break
         ## 没找到excel
         if not __has_excel:
             ext = os.path.splitext(excel_path)
