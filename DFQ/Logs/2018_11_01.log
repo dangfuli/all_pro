@@ -1,0 +1,7 @@
+2018-11-01 19:13:57,852 - Log.py - INFO - testinfo
+2018-11-01 19:13:57,855 - Log.py - DEBUG - testdebug
+2018-11-01 19:13:57,858 - Log.py - WARNING - testwarning
+2018-11-01 19:13:57,861 - Log.py - ERROR - testerror
+2018-11-01 19:30:53,743 - Log.py - INFO - 真理：ligege,密码：haoshuai
+2018-11-01 19:33:24,415 - Log.py - INFO - 真理：ligege,密码：haoshuai
+2018-11-01 19:33:24,417 - Log.py - INFO - 真理：ligege,密码：haoshuai
