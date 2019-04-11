@@ -23,10 +23,6 @@ except ImportError:
 class ExcelUntil:
     """
     读取支持xlsx，xls。写入更新支持xls
-    read_row
-    read_col
-    update_cell
-
     """
 
     def __init__(self, excel_path):
@@ -47,7 +43,6 @@ class ExcelUntil:
                 __has_excel = True
                 self.workbook = xlrd.open_workbook(os.path.join(os.path.dirname(excel_path), i))
                 self.excel_path = os.path.join(os.path.dirname(excel_path), i)
-                print("找到文件，认为打开excel")
                 break
         ## 没找到excel
         if not __has_excel:
@@ -150,19 +145,33 @@ class ExcelUntil:
         print(cols_dict)
         return cols_dict
 
-    def update_cell(self, x, y, sheetIndex=0):
+    def update_cell(self, x, y,data='N/A',sheetIndex=0):
         """更新单元格"""
         if not isinstance(self.workbook, xlrd.book.Book):
             raise Exception("更新单元格数据，请使用xlrd。")
         wb = copy(self.workbook)
         ws = wb.get_sheet(sheetIndex)
-        ws.write(x, y, "123")
-        wb.save(self.excel_path[:-1])
-        print(self.excel_path[:-1])
+        ws.write(x, y,data)
+        print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
+        if os.path.splitext(self.excel_path[1]) != 'xls':
+            __saveExcelPath = '{0}.{1}'.format(os.path.splitext(self.excel_path)[0],'xls')
+        else:
+            __saveExcelPath = self.excel_path
+        wb.save(__saveExcelPath)
 
+    def create_Excel(self):
+        print(self.excel_path)
+        '''新建用的方法，路径传入是已经存在的同学去反思
+        仅针对传入路径为不存在的，如果已经存在，请反思，没有处理
+        '''
+        # 嘴上虽然说不传路径不处理，但是还是乖乖的处理了，真香。。。
+        if os.path.exists(self.excel_path) is True:
+            raise Exception('有这个文件，呸。')
+        pass
+        ## 暂时用不到
 
 if __name__ == '__main__':
-    p = r'/Users/dangfuli/Documents/p.xlsx'
+    p = r'/Users/dangfuli/Documents/log/p'
     test = ExcelUntil(p)
     # print("123")
     # t_read = test.read_row(row=1)
@@ -171,4 +180,6 @@ if __name__ == '__main__':
     # t3_read = test.read_row(sheetName='123')
     # t4_read = test.read_row(sheetName='Sheet2')
     # cr = test.read_col(col=2,sheetIndex=1)
-    test.update_cell(1, 1)
+    # test.update_cell(10, 10)
+    test.create_Excel()
+
