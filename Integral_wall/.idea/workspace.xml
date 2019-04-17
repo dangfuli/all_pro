@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fc27ef9-1602-476e-87bb-5a287a3bcb11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../all_until_script/.idea/all_until_script.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../all_until_script/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../all_until_script/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../all_until_script/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../all_until_script/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../all_until_script/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1111.py" beforeDir="false" afterPath="$PROJECT_DIR$/1111.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/demo.json" beforeDir="false" />
-    </list>
+    <list default="true" id="7fc27ef9-1602-476e-87bb-5a287a3bcb11" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/lib/utils/getConfig.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -45,7 +34,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1111.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="205">
               <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#237#248#0" expanded="true" />
@@ -84,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="51" />
     <option name="width" value="1280" />
@@ -98,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +98,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,11 +253,12 @@
       <workItem from="1553503707346" duration="1380000" />
       <workItem from="1553597570070" duration="21320000" />
       <workItem from="1553684356655" duration="10839000" />
+      <workItem from="1554964011694" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37159000" />
+    <option name="totallyTimeSpent" value="37168000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,11 +270,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="51" width="1280" height="724" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1736672" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17609046" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.5537975" />
@@ -416,23 +405,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/del.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/demo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/del.py" />
+    <entry file="file://$PROJECT_DIR$/lib/utils/demo.json" />
     <entry file="file://$PROJECT_DIR$/lib/utils/to_json.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -443,19 +417,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/get_procrank.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/get_procrank.py" />
     <entry file="file://$PROJECT_DIR$/lib/utils/getConfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1111.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="205">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#237#248#0" expanded="true" />

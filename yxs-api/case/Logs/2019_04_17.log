@@ -1,0 +1,18 @@
+2019-04-17 16:05:40,965 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_yuedujilu
+请求参数为：{'fType': '11', 'tagCode': '20', 'listCode': '0045', 'startTime': '20190417160540'}
+2019-04-17 16:40:30,980 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_yuedujilu
+请求参数为：{'type': '00', 'code': 'eroajdfoasjgergs', 'bookCode': '', 'sharChannel': 'qq', 'startTime': '20190417164030'}
+2019-04-17 16:40:32,127 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_yuedujilu
+请求参数为：{'type': '00', 'code': 'eroajdfoasjgergs', 'bookCode': '123', 'sharChannel': 'weChat', 'startTime': '20190417164032'}
+2019-04-17 16:40:33,270 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_yuedujilu
+请求参数为：{'type': '00', 'code': 'eroajdfoasjgergs', 'bookCode': '123', 'sharChannel': 'h5', 'startTime': '20190417164033'}
+2019-04-17 16:42:25,209 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_appfenxiang
+请求参数为：{'type': '00', 'code': 'eroajdfoasjgergs', 'bookCode': '123', 'sharChannel': 'qq', 'startTime': '20190417164225'}
+2019-04-17 16:42:26,350 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_appfenxiang
+请求参数为：{'type': '01', 'code': '', 'bookCode': '123', 'sharChannel': 'qq', 'startTime': '20190417164226'}
+2019-04-17 16:42:27,518 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_appfenxiang
+请求参数为：{'type': '00', 'code': 'eroajdfoasjgergs', 'bookCode': '', 'sharChannel': 'qq', 'startTime': '20190417164227'}
+2019-04-17 16:42:28,657 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_appfenxiang
+请求参数为：{'type': '00', 'code': 'eroajdfoasjgergs', 'bookCode': '123', 'sharChannel': 'weChat', 'startTime': '20190417164228'}
+2019-04-17 16:42:29,791 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_appfenxiang
+请求参数为：{'type': '00', 'code': 'eroajdfoasjgergs', 'bookCode': '123', 'sharChannel': 'h5', 'startTime': '20190417164229'}

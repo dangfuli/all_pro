@@ -1,5 +1,5 @@
 # coding=utf-8
-import os
+import os,time
 
 from xlwt import Workbook
 
@@ -83,7 +83,7 @@ class ExcelUntil:
         elif isinstance(self.workbook, xlwt.Workbook):
             pass
 
-    def read_row(self, row=1, skip=0, sheetIndex=0, sheetName=None):
+    def read_row(self, row=None, skip=0, sheetIndex=0, sheetName=None):
         """
         读取excel数据
         :param row: 要读取的行数
@@ -98,7 +98,8 @@ class ExcelUntil:
         nrows = self.sheet.nrows
         ncols = self.sheet.ncols
         print('共计(%s行,%s列)' % (nrows, ncols))
-
+        if row is None:
+            row = nrows
         if skip >= row:
             print('跳过的比要得到的都多了')
             return {}
@@ -111,10 +112,10 @@ class ExcelUntil:
             if i + 1 <= skip:
                 continue
             rows_dict['row{0}'.format(i + 1)] = self.sheet.row_values(i)
-        print(rows_dict)
+        # print(rows_dict)
         return rows_dict
 
-    def read_col(self, col=1, skip=0, sheetIndex=0, sheetName=None):
+    def read_col(self, col=None, skip=0, sheetIndex=0, sheetName=None):
         """
         读取excel数据
         :param col: 要读取的列数
@@ -128,8 +129,9 @@ class ExcelUntil:
         self._checkout_sheet(sheetIndex, sheetName)
         nrows = self.sheet.nrows
         ncols = self.sheet.ncols
-        print('共计(%s行,%s列)' % (nrows, ncols))
-
+        # print('共计(%s行,%s列)' % (nrows, ncols))
+        if col is None:
+            col = ncols
         if skip >= col:
             print('跳过的比要得到的都多了')
             return {}
@@ -142,7 +144,7 @@ class ExcelUntil:
             if i + 1 <= skip:
                 continue
             cols_dict['col{0}'.format(i + 1)] = self.sheet.col_values(i)
-        print(cols_dict)
+        # print(cols_dict)
         return cols_dict
 
     def update_cell(self, x, y,data='N/A',sheetIndex=0):
@@ -151,16 +153,19 @@ class ExcelUntil:
             raise Exception("更新单元格数据，请使用xlrd。")
         wb = copy(self.workbook)
         ws = wb.get_sheet(sheetIndex)
-        ws.write(x, y,data)
-        print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
+        ws.write(int(x),int(y),data)
+        ws.write(int(x), int(y), data)
+        ws.write(int(x), int(y), data)
+        # print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
         if os.path.splitext(self.excel_path[1]) != 'xls':
             __saveExcelPath = '{0}.{1}'.format(os.path.splitext(self.excel_path)[0],'xls')
         else:
             __saveExcelPath = self.excel_path
         wb.save(__saveExcelPath)
+        return None
 
     def create_Excel(self):
-        print(self.excel_path)
+        # print(self.excel_path)
         '''新建用的方法，路径传入是已经存在的同学去反思
         仅针对传入路径为不存在的，如果已经存在，请反思，没有处理
         '''
@@ -171,15 +176,13 @@ class ExcelUntil:
         ## 暂时用不到
 
 if __name__ == '__main__':
-    p = r'/Users/dangfuli/Documents/log/p'
+    p = r'/Users/dangfuli/Documents/log/p.xls'
     test = ExcelUntil(p)
     # print("123")
-    # t_read = test.read_row(row=1)
+    t_read = test.read_row(row=1)
     # t_read1 = test.read_row(sheetIndex=1)
     # t1_read = test.read_row(sheetIndex=10)
     # t3_read = test.read_row(sheetName='123')
     # t4_read = test.read_row(sheetName='Sheet2')
     # cr = test.read_col(col=2,sheetIndex=1)
-    # test.update_cell(10, 10)
-    test.create_Excel()
-
+    # test.create_Excel()

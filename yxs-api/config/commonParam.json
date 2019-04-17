@@ -1,3 +1,11 @@
 {
-
+  "code": "59",
+  "platform": "android",
+  "time": "1554866616234",
+  "channelNum": "invite",
+  "usercode": "d3aefd88d650f1844dda4999f21aee65",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjZWIzNzI5M2FmYWI3NGNkOTMwYzZmODA4ZDM4OTJlNSIsImlhdCI6MTU1NTM3NzA5MiwiZXhwIjoxNTU5MjY1MDkyfQ.8L_z9z1qG95wcb1Z8-ALtzub93ws3Mq2i8wiInNlhnE",
+  "info": "77dcfb8234c221d848acd3ab0d42ebeb",
+  "Content-Type": "application/json",
+  "User-Agent": "okhttp/3.10.0"
 }

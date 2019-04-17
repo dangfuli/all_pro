@@ -23,7 +23,7 @@ class Log:
         self.format = logging.Formatter('%(asctime)s - %(filename)s - %(levelname)s - %(message)s')
     def __console(self,level,msg):
         # 创建filehandler
-        fh = logging.FileHandler(self.logname,'a',encoding='utf-8')
+        fh = logging.FileHandler(self.logname,'a+',encoding='utf-8')
         fh.setLevel(logging.DEBUG)
         fh.setFormatter(self.format)
         self.logger.addHandler(fh)
@@ -56,5 +56,5 @@ if __name__ == '__main__':
     log = Log()
     username='ligege'
     password='haoshuai'
-    log.info('真理：%s,密码：%s'%(username,password))
-    log.info('真理：{0},密码：{1}'.format(username,password))
+    log.error('真理：%s,密码：%s'%(username,password))
+    # log.info('真理：{0},密码：{1}，'.format(username,password))

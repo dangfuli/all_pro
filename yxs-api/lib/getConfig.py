@@ -1,6 +1,6 @@
 # coding=utf-8
 import os,subprocess
-def getElement(file):
+def getConfig(file):
     '''
     元素以json数据格式存储，此方法读取文件
     :param file: 数据文件，json格式
@@ -13,9 +13,9 @@ def getElement(file):
             print("打开文件{0}错误".format(file))
             return {}
         try:
-            elements = eval(f.read())
+            config = eval(f.read())
             # print(type(elements))
-            return elements
+            return config
         except:
             print("解析文件{0}错误".format(file))
             return {}
@@ -42,4 +42,4 @@ def getDevices(EM_host=[]):
 
 
 if __name__ == '__main__':
-    getElement(r"D:\auto\DFQ\elements\login.json")
+    getConfig(r"D:\auto\DFQ\elements\login.json")

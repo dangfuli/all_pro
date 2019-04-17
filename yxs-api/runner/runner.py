@@ -2,7 +2,7 @@
 import time,os
 import unittest
 from lib.HTMLTestRunner import HTMLTestRunner
-
+import sys,os
 
 def get_test():
     '''
@@ -29,4 +29,4 @@ def html_report(report_path=os.path.join(os.path.abspath(".."),"report")):
     f.close()
 if __name__ == '__main__':
    # installApp()
-    html_report()
+   html_report()
