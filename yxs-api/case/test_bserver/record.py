@@ -1,16 +1,7 @@
-import unittest
-import os,requests,time,json
-from lib import getConfig
-from lib import Excel
-from doc.constant import *
-from lib import Log
+from lib.flow import *
 # 加载配置
 log = Log.Log()
-reqPath = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),'doc/1.xls')
 reqData = Excel.ExcelUntil(reqPath).read_row(skip=1)
-
-## {'row2': ['post', '{"device":"","clientId":"test"}', '', '', 'device传空']}
-headers = getConfig.getConfig(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),'config/commonParam.json'))
 
 url = URI + 'bserver/record'
 class Record(unittest.TestCase):
