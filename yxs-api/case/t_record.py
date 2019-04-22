@@ -186,6 +186,5 @@ class Record(unittest.TestCase):
                 log.error("接口为：'bserver/record'，方法为：{1}\n请求参数为：{0}".format(value, self.test_appfenxiang.__name__))
 
 
-
 if __name__ == '__main__':
     unittest.main()
