@@ -11,7 +11,7 @@ def get_test():
     '''
     case_path = os.path.join(os.path.abspath(".."),"case")
     print(case_path)
-    discover = unittest.defaultTestLoader.discover(case_path,pattern="*.py")
+    discover = unittest.defaultTestLoader.discover(case_path,pattern="t_*.py")
     testcase = unittest.TestSuite()   # 创建单元套件，添加用例到套件
     for test_suit in discover:
         for i in test_suit:
