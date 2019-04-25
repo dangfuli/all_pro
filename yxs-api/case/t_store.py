@@ -259,6 +259,19 @@ class Store(unittest.TestCase):
         #         Excel.ExcelUntil(reqPath).update_cell(int(key[3:]) - 1, 3, 'fail', sheetIndex=1)
         #         log.error("接口为：'bserver/record'，方法为：{0}\n参数为：{1}".format(self.test_shudanxiangqing.__name__, value))
 
+    def test_pubuliushudan(self):
+        # 瀑布流书单
+        # 更新headers
+        headers['time'] = str(time.time()).split('.')[0]
+        headers['type'] = "30"
+        to_requests(url=url,method='get',reqData=reqData,reqPath=reqPath,headers=headers,sheetindex=1,func=self.test_pubuliushudan)
+
+    def test_gundongtiaoxinxi(self):
+        # 滚动条信息
+        # 更新headers
+        headers['time'] = str(time.time()).split('.')[0]
+        headers['type'] = "20"
+        to_requests(url=url,method='get',reqData=reqData,reqPath=reqPath,headers=headers,sheetindex=1,func=self.test_gundongtiaoxinxi)
 
 if __name__ == '__main__':
     unittest.main()
