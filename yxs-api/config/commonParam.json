@@ -3,9 +3,9 @@
   "platform": "android",
   "time": "1554866616234",
   "channelNum": "invite",
-  "usercode": "9d6ccef89be31fed41d1c3b396f9a050",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkZWEyZmRlMzEyNmZhMGFhZDk1MGQzNjJiMGQ5ZTk2OCIsImlhdCI6MTU1NjA3NjMxNCwiZXhwIjoxNTU5OTY0MzE0fQ.V-4U08r_zDQ7ZGgaE13gTmrmOMqMbm6mVncP67Q_OwQ",
-  "info": "98bc94a1c97301d7200005bb86c0108c",
+  "usercode": "3b953aca319e82b20610ca9960ffcd1e",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYTI1ZmVhZmE4ZWE2NmZmY2Q2ZWM3NDVmNTBmNzg4YSIsImlhdCI6MTU1NjE5MzgzMywiZXhwIjoxNTYwMDgxODMzfQ.RaPXMIetV5tvcU66eMqGo9ij1Mu-vUqwZYNp-K_ZBCI",
+  "info": "a41986b29b61e65b829284076dfe8261",
   "Content-Type": "application/json",
   "User-Agent": "okhttp/3.10.0"
 }

@@ -19,18 +19,25 @@ def to_requests(url,method,reqData,headers,reqPath,sheetindex,func):
             if method == 'get':
 
                 if value[2] != '':
-                    value = json.loads(value[2])
-                    resp = requests.get(url=url, headers=headers, params=value)
+                    value_r = json.loads(value[2])
+                    resp = requests.get(url=url, headers=headers, params=value_r)
                 else:
                     resp = requests.get(url=url, headers=headers)
             elif method == 'post':
                 # 转成字典
-                value = json.loads(value[1])
-                if value.setdefault('startTime') is not None:
-                    value['startTime'] = '{0}'.format(time.strftime('%Y%m%d%H%M%S', time.localtime()))
-                if value.setdefault('code') is not None:
-                    value['code'] = '{0}'.format(time.strftime('%Y%m%d%H%M%S', time.localtime()))
-                resp = requests.post(url=url,headers=headers,json=value)
+                value_r = json.loads(value[1])
+
+                if value_r.setdefault('startTime') is None:
+                    value_r.pop('startTime')
+                else:
+                    value_r['startTime'] = '{0}'.format(time.strftime('%Y%m%d%H%M%S', time.localtime()))
+
+                if value_r.setdefault('code') is None:
+                    value_r.pop('code')
+                else:
+                    value_r['code'] = '{0}'.format(time.strftime('%Y%m%d%H%M%S', time.localtime()))
+                resp = requests.post(url=url,headers=headers,json=value_r)
+
             if resp.json()['code'] == 0:
                 Excel.ExcelUntil(reqPath).update_cell(int(key[3:]) - 1, 3, 'ok', sheetIndex=sheetindex)
             else:
