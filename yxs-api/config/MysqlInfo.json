@@ -1,0 +1,7 @@
+{
+  "host": "118.190.157.177",
+  "user": "dfltest",
+  "passwd": "123456",
+  "db": "yxstest",
+  "port": 3306
+}

@@ -10,7 +10,7 @@ class Login(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',desired_caps)
-        cls.driver.wait_activity(".base,ui.MainActivity",10)
+        cls.driver.wait_activity(".base.ui.MainActivity",10)
     def test01(self):
         ## 只输入电话号码为123，验证码为空
         login(self.driver,phone='123',verify="")

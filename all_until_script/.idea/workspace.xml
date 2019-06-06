@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="964d8419-76b4-4589-9108-6e24567e2456" name="Default Changelist" comment="" />
+    <list default="true" id="964d8419-76b4-4589-9108-6e24567e2456" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../yxs-api/case/t_mine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integral_wall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integral_wall/1111.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/1111.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integral_wall/case/Mine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/case/Mine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integral_wall/lib/Mine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/lib/Mine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integral_wall/lib/utils/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/lib/utils/Excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integral_wall/lib/utils/to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/lib/utils/to_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yxs-api/111.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yxs-api/111.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yxs-api/case/t_renwu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yxs-api/case/t_renwu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yxs-api/config/commonParam.json" beforeDir="false" afterPath="$PROJECT_DIR$/../yxs-api/config/commonParam.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yxs-api/doc/1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../yxs-api/doc/1.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yxs-api/lib/flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yxs-api/lib/flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yxs-api/runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yxs-api/runner/runner.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/getProcrank.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,11 +60,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="110" />
-    <option name="y" value="88" />
-    <option name="width" value="997" />
-    <option name="height" value="523" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -58,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,7 +83,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -102,11 +115,12 @@
       <updated>1553602225740</updated>
       <workItem from="1553602227697" duration="87000" />
       <workItem from="1554896878281" duration="322000" />
+      <workItem from="1557826054709" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409000" />
+    <option name="totallyTimeSpent" value="411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -118,9 +132,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19628432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19951534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -134,7 +148,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32946634" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3528481" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35238096" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -167,7 +181,7 @@
     <entry file="file://$PROJECT_DIR$/getProcrank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
         </state>
       </provider>
     </entry>

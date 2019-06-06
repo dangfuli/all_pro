@@ -147,24 +147,22 @@ class ExcelUntil:
         # print(cols_dict)
         return cols_dict
 
-    def update_cell(self, x, y,data='N/A',sheetIndex=0):
+    def update_cell(self, *args,sheetIndex=0):
         """更新单元格"""
         if not isinstance(self.workbook, xlrd.book.Book):
             raise Exception("更新单元格数据，请使用xlrd。")
         wb = copy(self.workbook)
         ws = wb.get_sheet(sheetIndex)
-        ws.write(int(x),int(y),data)
-        ws.write(int(x), int(y), data)
-        ws.write(int(x), int(y), data)
+        for x,y,msg in args:
+            ws.write(int(x),int(y),data)
         # print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
         if os.path.splitext(self.excel_path[1]) != 'xls':
             __saveExcelPath = '{0}.{1}'.format(os.path.splitext(self.excel_path)[0],'xls')
         else:
             __saveExcelPath = self.excel_path
         wb.save(__saveExcelPath)
-        return None
 
-    def create_Excel(self):
+    def create_Excel(self,*args,sheetName='Sheet1'):
         # print(self.excel_path)
         '''新建用的方法，路径传入是已经存在的同学去反思
         仅针对传入路径为不存在的，如果已经存在，请反思，没有处理
@@ -172,17 +170,37 @@ class ExcelUntil:
         # 嘴上虽然说不传路径不处理，但是还是乖乖的处理了，真香。。。
         if os.path.exists(self.excel_path) is True:
             raise Exception('有这个文件，呸。')
-        pass
-        ## 暂时用不到
+        _sheet = self.workbook.add_sheet(sheetName)
+        ## 写入数据
+        print(args)
+        for x,y,info in args:
+            _sheet.write(x,y,label = info)
+        self.workbook.save(self.excel_path)
 
 if __name__ == '__main__':
     p = r'/Users/dangfuli/Documents/log/p.xls'
-    test = ExcelUntil(p)
+
+    #test = ExcelUntil(os.path.join(os.getcwd(),'taobao.xls'))
+    # test.create_Excel((0,0,'1'),(0,1,'2'),(0,2,'3'))
     # print("123")
-    t_read = test.read_row(row=1)
+    # t_read = test.read_row(row=1)
     # t_read1 = test.read_row(sheetIndex=1)
     # t1_read = test.read_row(sheetIndex=10)
     # t3_read = test.read_row(sheetName='123')
     # t4_read = test.read_row(sheetName='Sheet2')
     # cr = test.read_col(col=2,sheetIndex=1)
     # test.create_Excel()
+    workbook = xlrd.open_workbook('/Users/dangfuli/Documents/PycharmProjects/all_pro/yxs-api/taobao.xls')
+
+    def update_cell(*args,sheetIndex=0):
+        """更新单元格"""
+        wb = copy(workbook)
+        ws = wb.get_sheet(sheetIndex)
+        for i in args:
+            for k,g,info in i:
+                ws.write(int(k),int(g),info)
+        # print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
+
+        wb.save('/Users/dangfuli/Documents/PycharmProjects/all_pro/yxs-api/taobao.xls')
+
+    update_cell(((1,1,'info'),(1,2,'aa')))
