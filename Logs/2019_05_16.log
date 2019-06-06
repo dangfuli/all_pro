@@ -1,0 +1,20 @@
+2019-05-16 14:39:26,486 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-05-16 14:39:28,106 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-05-16 14:39:41,854 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_bangdingzhifubao
+参数为：body:test_bangdingzhifubao
+params:{"type":"01","aliPay":"ceshi1","userName":"ceshi"}
+错误信息为:
+2019-05-16 14:39:43,477 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_bangdingzhifubao
+参数为：body:test_bangdingzhifubao
+params:{"type":"01","aliPay":"","userName":"ceshi"}
+错误信息为:
+2019-05-16 14:39:45,122 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_bangdingzhifubao
+参数为：body:test_bangdingzhifubao
+params:{"type":"01","aliPay":"ceshi","userName":""}
+错误信息为:
