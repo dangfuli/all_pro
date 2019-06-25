@@ -147,14 +147,16 @@ class ExcelUntil:
         # print(cols_dict)
         return cols_dict
 
-    def update_cell(self, *args,sheetIndex=0):
+    def update_cell(self,x,y,msg,sheetIndex=0):
         """更新单元格"""
         if not isinstance(self.workbook, xlrd.book.Book):
             raise Exception("更新单元格数据，请使用xlrd。")
         wb = copy(self.workbook)
         ws = wb.get_sheet(sheetIndex)
-        for x,y,msg in args:
-            ws.write(int(x),int(y),data)
+        # for x,y,msg in args:
+        #     print(x,y,msg)
+        #     ws.write(int(x),int(y),msg)
+        ws.write(int(x),int(y),msg)
         # print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
         if os.path.splitext(self.excel_path[1]) != 'xls':
             __saveExcelPath = '{0}.{1}'.format(os.path.splitext(self.excel_path)[0],'xls')
@@ -172,14 +174,12 @@ class ExcelUntil:
             raise Exception('有这个文件，呸。')
         _sheet = self.workbook.add_sheet(sheetName)
         ## 写入数据
-        print(args)
         for x,y,info in args:
             _sheet.write(x,y,label = info)
         self.workbook.save(self.excel_path)
 
 if __name__ == '__main__':
-    p = r'/Users/dangfuli/Documents/log/p.xls'
-
+    # p = r'/Users/dangfuli/Documents/log/p.xls'
     #test = ExcelUntil(os.path.join(os.getcwd(),'taobao.xls'))
     # test.create_Excel((0,0,'1'),(0,1,'2'),(0,2,'3'))
     # print("123")
@@ -190,17 +190,8 @@ if __name__ == '__main__':
     # t4_read = test.read_row(sheetName='Sheet2')
     # cr = test.read_col(col=2,sheetIndex=1)
     # test.create_Excel()
-    workbook = xlrd.open_workbook('/Users/dangfuli/Documents/PycharmProjects/all_pro/yxs-api/taobao.xls')
 
-    def update_cell(*args,sheetIndex=0):
-        """更新单元格"""
-        wb = copy(workbook)
-        ws = wb.get_sheet(sheetIndex)
-        for i in args:
-            for k,g,info in i:
-                ws.write(int(k),int(g),info)
-        # print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
+    pa = r'/Users/dangfuli/Documents/log/p.xls'
+    t = ExcelUntil(pa)
+    t.update_cell(1,1,'ok')
 
-        wb.save('/Users/dangfuli/Documents/PycharmProjects/all_pro/yxs-api/taobao.xls')
-
-    update_cell(((1,1,'info'),(1,2,'aa')))

@@ -2,23 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42303540-9a06-4050-8bc7-aa7a603a7420" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case/t_mine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taobao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinterRunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_wall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_wall/1111.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/1111.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_wall/case/Mine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/case/Mine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_wall/lib/Mine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/lib/Mine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_wall/lib/utils/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/lib/utils/Excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_wall/lib/utils/to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_wall/lib/utils/to_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../all_until_script/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../all_until_script/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logs/2019_05_14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logs/2019_05_15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logs/2019_05_16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logs/2019_05_17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/.idea/store.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/lib/Excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/lib/getConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../store/test/huawei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/111.py" beforeDir="false" afterPath="$PROJECT_DIR$/111.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/t_renwu.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/t_renwu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/commonParam.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/commonParam.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taobao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taobao.xls" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,29 +34,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_mine_Mine_test_jinrushezhi.coverage" NAME="Unittests for t_mine.Mine.test_jinrushezhi Coverage Results" MODIFIED="1556443497059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Mysql1.coverage" NAME="Mysql1 Coverage Results" MODIFIED="1557218081967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_mine_Mine_test_jinrushezhi.coverage" NAME="Unittests for t_mine.Mine.test_jinrushezhi Coverage Results" MODIFIED="1561358288509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_read_py.coverage" NAME="Unittests in read.py Coverage Results" MODIFIED="1556194855441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_store_Store_test_gundongtiaoxinxi.coverage" NAME="Unittests for t_store.Store.test_gundongtiaoxinxi Coverage Results" MODIFIED="1556182450538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1559782960650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_t_store_py.coverage" NAME="Unittests in t_store.py Coverage Results" MODIFIED="1556179596319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yxs_api$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1561367006862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_t_store_py.coverage" NAME="Unittests in t_store.py Coverage Results" MODIFIED="1561446715605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_books_Books_test_shujineirong.coverage" NAME="Unittests for t_books.Books.test_shujineirong Coverage Results" MODIFIED="1556190670394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_read_Read_test_shujizhiding.coverage" NAME="Unittests for read.Read.test_shujizhiding Coverage Results" MODIFIED="1556247247034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$taobao.coverage" NAME="taobao Coverage Results" MODIFIED="1559783696996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yxs_api$taobao.coverage" NAME="taobao Coverage Results" MODIFIED="1559806024322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_record_Record_test_yuedujilu.coverage" NAME="Unittests for t_record.Record.test_yuedujilu Coverage Results" MODIFIED="1556175944459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_mine_Mine_test_tixianxiadan.coverage" NAME="Unittests for t_mine.Mine.test_tixianxiadan Coverage Results" MODIFIED="1556278852064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_mine_Mine_test_jinruwode.coverage" NAME="Unittests for t_mine.Mine.test_jinruwode Coverage Results" MODIFIED="1556277517501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yxs_api$tkinterRunner.coverage" NAME="tkinterRunner Coverage Results" MODIFIED="1561357390029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yxs_api$record.coverage" NAME="record Coverage Results" MODIFIED="1555498934604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_bserver" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_store_Store_test_tagshudan.coverage" NAME="Unittests for t_store.Store.test_tagshudan Coverage Results" MODIFIED="1555931247437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_store_Store_test_shudanxiangqing.coverage" NAME="Unittests for t_store.Store.test_shudanxiangqing Coverage Results" MODIFIED="1556172009260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_store_Store_test_shujifenlei.coverage" NAME="Unittests for t_store.Store.test_shujifenlei Coverage Results" MODIFIED="1556084808614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$getConfig.coverage" NAME="getConfig Coverage Results" MODIFIED="1556093582103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_mine_Mine_test_lianxikefu.coverage" NAME="Unittests for t_mine.Mine.test_lianxikefu Coverage Results" MODIFIED="1556438648562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$runner.coverage" NAME="runner Coverage Results" MODIFIED="1558957689667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runner" />
+    <SUITE FILE_PATH="coverage/yxs_api$runner.coverage" NAME="runner Coverage Results" MODIFIED="1561448624487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runner" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_books_Books_test_shujimulu.coverage" NAME="Unittests for t_books.Books.test_shujimulu Coverage Results" MODIFIED="1556190691608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_mine_Mine_test_jinruxiaoxizhongxin.coverage" NAME="Unittests for t_mine.Mine.test_jinruxiaoxizhongxin Coverage Results" MODIFIED="1556277639579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_record_Record_test_appfenxiang.coverage" NAME="Unittests for t_record.Record.test_appfenxiang Coverage Results" MODIFIED="1556246437431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_t_books_py.coverage" NAME="Unittests in t_books.py Coverage Results" MODIFIED="1556518159876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_record_Record_test_appfenxiang.coverage" NAME="Unittests for t_record.Record.test_appfenxiang Coverage Results" MODIFIED="1561448078387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_t_books_py.coverage" NAME="Unittests in t_books.py Coverage Results" MODIFIED="1560407604505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_renwu_Renwu_test_huoquqiandaoxinxi.coverage" NAME="Unittests for t_renwu.Renwu.test_huoquqiandaoxinxi Coverage Results" MODIFIED="1556271142857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_mine_Mine_test_bangdingzhifubao.coverage" NAME="Unittests for t_mine.Mine.test_bangdingzhifubao Coverage Results" MODIFIED="1556530153468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Mysql.coverage" NAME="Mysql Coverage Results" MODIFIED="1556267198978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
@@ -59,13 +67,13 @@
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_books_Books_test_jrshujixiangqingye.coverage" NAME="Unittests for t_books.Books.test_jrshujixiangqingye Coverage Results" MODIFIED="1556193867136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$toJson.coverage" NAME="toJson Coverage Results" MODIFIED="1558660044125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_books_Books_test_xiangtongshujitj.coverage" NAME="Unittests for t_books.Books.test_xiangtongshujitj Coverage Results" MODIFIED="1556518345425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_t_record_py.coverage" NAME="Unittests in t_record.py Coverage Results" MODIFIED="1556180001085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_renwu_Renwu_test_huoqurenwu.coverage" NAME="Unittests for t_renwu.Renwu.test_huoqurenwu Coverage Results" MODIFIED="1556273274574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$flow.coverage" NAME="flow Coverage Results" MODIFIED="1555498926353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_t_record_py.coverage" NAME="Unittests in t_record.py Coverage Results" MODIFIED="1561447879946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_read_Read_test_jinrushujia.coverage" NAME="Unittests for read.Read.test_jinrushujia Coverage Results" MODIFIED="1556246357749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/yxs_api$flow.coverage" NAME="flow Coverage Results" MODIFIED="1561446152683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_store_Store_test_huoqushuchengye.coverage" NAME="Unittests for t_store.Store.test_huoqushuchengye Coverage Results" MODIFIED="1556172986483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_read_Read_test_huoquliulanjilu.coverage" NAME="Unittests for read.Read.test_huoquliulanjilu Coverage Results" MODIFIED="1556195347611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/yxs_api$Excel.coverage" NAME="Excel Coverage Results" MODIFIED="1559713402888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/yxs_api$Excel.coverage" NAME="Excel Coverage Results" MODIFIED="1561448519790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_t_store_Store_test_pubuliushudan.coverage" NAME="Unittests for t_store.Store.test_pubuliushudan Coverage Results" MODIFIED="1556181943608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_for_read_Read_test_jiarushujia.coverage" NAME="Unittests for read.Read.test_jiarushujia Coverage Results" MODIFIED="1556197081585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/yxs_api$Unittests_in_t_mine_py.coverage" NAME="Unittests in t_mine.py Coverage Results" MODIFIED="1556537495905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -94,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/111.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="215">
+              <caret line="32" column="148" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
               <folding>
                 <element signature="e#17#48#0" expanded="true" />
               </folding>
@@ -103,13 +111,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/toJson.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runner/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#14#33#0" expanded="true" />
+                <element signature="e#15#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="202" selection-start-line="202" selection-end-line="202" />
+            <state relative-caret-position="201">
+              <caret line="194" column="22" lean-forward="true" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
               <folding>
                 <element signature="e#15#29#0" expanded="true" />
               </folding>
@@ -127,14 +135,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/taobao.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinterRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="360" column="6" lean-forward="true" selection-start-line="360" selection-start-column="6" selection-end-line="360" selection-end-column="6" />
+            <state relative-caret-position="-144">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="e#15#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/flow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-445">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/t_record.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="172" column="11" lean-forward="true" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/commonParam.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/MysqlInfo.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -186,7 +233,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/taobao.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/doc/constant.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/case/t_renwu.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/Excel.py" root0="SKIP_INSPECTION" />
@@ -222,24 +268,25 @@
         <option value="$PROJECT_DIR$/lib/Mysql.py" />
         <option value="$PROJECT_DIR$/config/MysqlInfo.json" />
         <option value="$PROJECT_DIR$/case/t_renwu.py" />
-        <option value="$PROJECT_DIR$/lib/flow.py" />
         <option value="$PROJECT_DIR$/case/t_mine.py" />
         <option value="$PROJECT_DIR$/doc/constant.py" />
         <option value="$PROJECT_DIR$/222.py" />
         <option value="$PROJECT_DIR$/lib/Mysql1.py" />
-        <option value="$PROJECT_DIR$/tkinterRunner.py" />
-        <option value="$PROJECT_DIR$/config/commonParam.json" />
         <option value="$PROJECT_DIR$/lib/toJson.py" />
-        <option value="$PROJECT_DIR$/runner/runner.py" />
-        <option value="$PROJECT_DIR$/lib/Excel.py" />
-        <option value="$PROJECT_DIR$/111.py" />
         <option value="$PROJECT_DIR$/taobao.py" />
+        <option value="$PROJECT_DIR$/config/commonParam.json" />
+        <option value="$PROJECT_DIR$/tkinterRunner.py" />
+        <option value="$PROJECT_DIR$/111.py" />
+        <option value="$PROJECT_DIR$/runner/runner.py" />
+        <option value="$PROJECT_DIR$/lib/flow.py" />
+        <option value="$PROJECT_DIR$/lib/Excel.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -249,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,12 +326,18 @@
             <path>
               <item name="yxs-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="yxs-api" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yxs-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yxs-api" type="462c0819:PsiDirectoryNode" />
               <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,29 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.taobao">
-    <configuration name="111 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yxs-api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/111.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.runner">
     <configuration name="Excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yxs-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,57 +410,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="taobao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for t_record.Record.test_appfenxiang" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="yxs-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taobao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;t_record.Record.test_appfenxiang&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="toJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in t_record.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="yxs-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/toJson.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/t_record.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in t_store.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="yxs-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/t_store.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.taobao" />
-        <item itemvalue="Python.111 (1)" />
-        <item itemvalue="Python.Excel" />
         <item itemvalue="Python.runner" />
-        <item itemvalue="Python.toJson" />
+        <item itemvalue="Python.Excel" />
+        <item itemvalue="Python tests.Unittests for t_record.Record.test_appfenxiang" />
+        <item itemvalue="Python tests.Unittests in t_record.py" />
+        <item itemvalue="Python tests.Unittests in t_store.py" />
       </list>
     </recent_temporary>
   </component>
@@ -458,44 +489,50 @@
       <workItem from="1557974097378" duration="10156000" />
       <workItem from="1558668487552" duration="9000" />
       <workItem from="1558669597545" duration="6529000" />
-      <workItem from="1559541649491" duration="41651000" />
+      <workItem from="1559541649491" duration="51451000" />
+      <workItem from="1560148176565" duration="3526000" />
+      <workItem from="1560216195319" duration="188000" />
+      <workItem from="1560325958924" duration="47000" />
+      <workItem from="1560405055876" duration="594000" />
+      <workItem from="1561339562962" duration="502000" />
+      <workItem from="1561340537070" duration="16130000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_t_books_Books_test_xiangtongshujitj - 2019.04.29 at 13h 34m 10s.xml">
-      <configuration name="Unittests for t_books.Books.test_xiangtongshujitj" configurationId="tests" />
+    <history-entry file="Unittests_for_t_mine_Mine_test_jinrushezhi - 2019.06.24 at 14h 38m 09s.xml">
+      <configuration name="Unittests for t_mine.Mine.test_jinrushezhi" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_t_books_Books_test_xiangtongshujitj - 2019.04.29 at 14h 04m 23s.xml">
-      <configuration name="Unittests for t_books.Books.test_xiangtongshujitj" configurationId="tests" />
+    <history-entry file="Unittests_in_t_store_py - 2019.06.25 at 15h 13m 45s.xml">
+      <configuration name="Unittests in t_store.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_t_books_Books_test_xiangtongshujitj - 2019.04.29 at 14h 04m 49s.xml">
-      <configuration name="Unittests for t_books.Books.test_xiangtongshujitj" configurationId="tests" />
+    <history-entry file="Unittests_in_t_record_py - 2019.06.25 at 15h 14m 21s.xml">
+      <configuration name="Unittests in t_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_t_books_py - 2019.04.29 at 14h 09m 34s.xml">
-      <configuration name="Unittests in t_books.py" configurationId="tests" />
+    <history-entry file="Unittests_for_t_record_Record_test_appfenxiang - 2019.06.25 at 15h 16m 56s.xml">
+      <configuration name="Unittests for t_record.Record.test_appfenxiang" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_t_mine_py - 2019.04.29 at 14h 12m 06s.xml">
-      <configuration name="Unittests in t_mine.py" configurationId="tests" />
+    <history-entry file="Unittests_for_t_record_Record_test_appfenxiang - 2019.06.25 at 15h 21m 56s.xml">
+      <configuration name="Unittests for t_record.Record.test_appfenxiang" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_t_books_Books_test_xiangtongshujitj - 2019.04.29 at 14h 12m 28s.xml">
-      <configuration name="Unittests for t_books.Books.test_xiangtongshujitj" configurationId="tests" />
+    <history-entry file="Unittests_in_t_record_py - 2019.06.25 at 15h 30m 51s.xml">
+      <configuration name="Unittests in t_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_t_mine_Mine_test_bangdingzhifubao - 2019.04.29 at 14h 33m 02s.xml">
-      <configuration name="Unittests for t_mine.Mine.test_bangdingzhifubao" configurationId="tests" />
+    <history-entry file="Unittests_in_t_record_py - 2019.06.25 at 15h 30m 58s.xml">
+      <configuration name="Unittests in t_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_t_mine_Mine_test_bangdingzhifubao - 2019.04.29 at 14h 34m 18s.xml">
-      <configuration name="Unittests for t_mine.Mine.test_bangdingzhifubao" configurationId="tests" />
+    <history-entry file="Unittests_in_t_record_py - 2019.06.25 at 15h 31m 33s.xml">
+      <configuration name="Unittests in t_record.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_t_mine_Mine_test_bangdingzhifubao - 2019.04.29 at 17h 29m 21s.xml">
-      <configuration name="Unittests for t_mine.Mine.test_bangdingzhifubao" configurationId="tests" />
+    <history-entry file="Unittests_for_t_record_Record_test_appfenxiang - 2019.06.25 at 15h 34m 18s.xml">
+      <configuration name="Unittests for t_record.Record.test_appfenxiang" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_t_mine_py - 2019.04.29 at 19h 31m 44s.xml">
-      <configuration name="Unittests in t_mine.py" configurationId="tests" />
+    <history-entry file="Unittests_for_t_record_Record_test_appfenxiang - 2019.06.25 at 15h 36m 08s.xml">
+      <configuration name="Unittests for t_record.Record.test_appfenxiang" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286413000" />
+    <option name="totallyTimeSpent" value="317200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,21 +544,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="731" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14458804" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15912762" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4983845" weight="0.24931507" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50403875" side_tool="true" weight="0.3739726" />
-      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49919224" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49757674" weight="0.22065727" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5024233" side_tool="true" weight="0.22065727" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49676898" weight="0.32707354" />
       <window_info anchor="bottom" id="Python Console" order="4" sideWeight="0.49919224" weight="0.32857144" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49596122" visible="true" weight="0.3520548" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49919224" weight="0.17123288" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49596122" visible="true" weight="0.19561815" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49919224" weight="0.3286385" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.49919224" weight="0.32739726" />
@@ -532,137 +570,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15831988" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4983845" weight="0.25342464" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50403875" side_tool="true" weight="0.24931507" />
-      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49919224" weight="0.32857144" />
-      <window_info anchor="bottom" id="Python Console" order="4" sideWeight="0.49919224" weight="0.32857144" />
-      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49596122" visible="true" weight="0.3" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49919224" weight="0.25616437" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.49919224" weight="0.32739726" />
-      <window_info anchor="right" id="Database" order="0" weight="0.32956383" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" weight="0.32956383" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="2752" column="24" selection-start-line="2752" selection-start-column="12" selection-end-line="2752" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/05-15-09-16.html" />
-    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/apscheduler/triggers/interval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/apscheduler/schedulers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="375" column="41" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/2019_05_16.log" />
-    <entry file="file://$PROJECT_DIR$/report/05-17-11-16.html" />
-    <entry file="file://$PROJECT_DIR$/report/05-17-11-57.html" />
-    <entry file="file://$PROJECT_DIR$/lib/demo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tkinterRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Mysql.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/t_record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="182" column="9" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/commonParam.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/05-24-09-41.html" />
-    <entry file="file://$PROJECT_DIR$/report/05-24-09-43.html" />
-    <entry file="file://$PROJECT_DIR$/report/05-27-16-34.html" />
-    <entry file="file://$PROJECT_DIR$/report/05-27-18-50.html" />
-    <entry file="file://$PROJECT_DIR$/report/05-27-19-32.html" />
-    <entry file="file://$PROJECT_DIR$/report/05-27-19-40.html" />
-    <entry file="file://$PROJECT_DIR$/report/05-29-13-29.html" />
-    <entry file="file://$PROJECT_DIR$/Logs/2019_05_27.log" />
-    <entry file="file://$PROJECT_DIR$/runner/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="215" column="8" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/appium/webdriver/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -802,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/toJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -823,16 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-191">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,20 +742,189 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/apscheduler/schedulers/background.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/apscheduler/schedulers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="489" column="36" selection-start-line="489" selection-start-column="36" selection-end-line="489" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/scrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+          <folding>
+            <element signature="e#84#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao.py" />
+    <entry file="file://$PROJECT_DIR$/report/06-13-13-52.html" />
+    <entry file="file://$PROJECT_DIR$/lib/toJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="2668" selection-start-line="37" selection-start-column="2668" selection-end-line="37" selection-end-column="2668" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/t_mine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="117" column="19" lean-forward="true" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/t_books.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/commonParam.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/MysqlInfo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-913">
+          <caret line="2790" lean-forward="true" selection-start-line="2790" selection-end-line="2790" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1559" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1199943127/binascii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="594" column="19" lean-forward="true" selection-start-line="594" selection-start-column="19" selection-end-line="594" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.6/lib/python/site-packages/cycler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7904" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/111.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="215">
+          <caret line="32" column="148" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
           <folding>
             <element signature="e#17#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taobao.py">
+    <entry file="file://$PROJECT_DIR$/report/06-25-14-49.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/constant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="360" column="6" lean-forward="true" selection-start-line="360" selection-start-column="6" selection-end-line="360" selection-end-column="6" />
+        <state relative-caret-position="45">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/t_store.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="194" column="22" lean-forward="true" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/t_record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="172" column="11" lean-forward="true" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/flow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinterRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/06-25-15-43.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2019_06_25.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#15#29#0" expanded="true" />
           </folding>
