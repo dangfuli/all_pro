@@ -40,6 +40,6 @@ def getDevices(EM_host=[]):
             if b'unable to connect' in res[0]:
                 print('设备连接失败，名称为；%s'%host)
 
-
 if __name__ == '__main__':
-    getConfig(r"D:\auto\DFQ\elements\login.json")
+    d = getConfig(r"../config/commonParam.json")
+    print(d)

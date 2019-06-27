@@ -1,6 +1,7 @@
+# coding=utf-8
+import time,json,os,unittest,sys,requests
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from lib import getConfig
-import unittest
-import requests,time,json,os
 from lib import Excel
 from doc.constant import *
 from lib import Log

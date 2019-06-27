@@ -19,7 +19,6 @@ except ImportError:
     os.system('pip install xlutils')
     from xlutils.copy import copy
 
-
 class ExcelUntil:
     """
     读取支持xlsx，xls。写入更新支持xls
@@ -194,4 +193,5 @@ if __name__ == '__main__':
     pa = r'/Users/dangfuli/Documents/log/p.xls'
     t = ExcelUntil(pa)
     t.update_cell(1,1,'ok')
+    t.update_cell(1,2,'fail')
 

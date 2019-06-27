@@ -87,5 +87,6 @@ class Mysql:
 if __name__ == '__main__':
     s = Mysql(sql_config)
     s.get_key_name("select * from tbl_book_type ")
+    print(s.get_row("select * from tbl_book_type "))
     s.close()
 
