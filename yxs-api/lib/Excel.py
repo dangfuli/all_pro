@@ -156,7 +156,7 @@ class ExcelUntil:
         #     print(x,y,msg)
         #     ws.write(int(x),int(y),msg)
         ws.write(int(x),int(y),msg)
-        # print(self.excel_path)        ## 这里处理只能保存为xls，xlsx保存打不开
+        ## 这里处理只能保存为xls，xlsx保存打不开
         if os.path.splitext(self.excel_path[1]) != 'xls':
             __saveExcelPath = '{0}.{1}'.format(os.path.splitext(self.excel_path)[0],'xls')
         else:
@@ -177,7 +177,7 @@ class ExcelUntil:
             _sheet.write(x,y,label = info)
         self.workbook.save(self.excel_path)
 
-if __name__ == '__main__':
+if __name__ =='__main__':
     # p = r'/Users/dangfuli/Documents/log/p.xls'
     #test = ExcelUntil(os.path.join(os.getcwd(),'taobao.xls'))
     # test.create_Excel((0,0,'1'),(0,1,'2'),(0,2,'3'))
@@ -192,6 +192,4 @@ if __name__ == '__main__':
 
     pa = r'/Users/dangfuli/Documents/log/p.xls'
     t = ExcelUntil(pa)
-    t.update_cell(1,1,'ok')
-    t.update_cell(1,2,'fail')
-
+    t.update_cell(1,2,'a')

@@ -16,30 +16,25 @@ def get_test():
     # for test_suit in discover:
     #     for i in test_suit:
     #         testcase.addTest(i)
-    # print(testcase)
+    #
     # return testcase
     testcase = unittest.TestSuite()
     testcase.addTests(discover)
     return testcase
 
-def html_report(report_path="../report"):
+def html_report(report_path=os.path.join(os.path.dirname(os.path.dirname(__file__)),'report')):
     ## 拼接输出报告的路径
-    report = time.strftime("%m-%d-%H-%M", time.localtime())
-    path = report_path + "/" + report + ".html"
-    print(report_path)
-    print(path)
+    path = report_path + "/" + time.strftime("%m-%d-%H-%M", time.localtime()) + ".html"
     ## 打开报告
     f = open(path,"wb")
     runner = HTMLTestRunner(stream=f,title="test-report",description="run of description")
     runner.run(get_test())
     f.close()
-
-html_report()
-time.sleep(2)
-# send_mail('../report/{0}.html'.format(time.strftime("%m-%d-%H-%M", time.localtime())))
+report_file = '../report/{0}.html'.format(time.strftime("%m-%d-%H-%M", time.localtime()))
+# html_report()
+# send_mail(report_file)
 
 # if __name__ == '__main__':
-#
 #     aps = BackgroundScheduler()
 #     aps.add_job(html_report,'interval',seconds=60)
 #     aps.start()
@@ -51,3 +46,4 @@ time.sleep(2)
 #         except:
 #             aps.shutdown()
 #             print('end')
+
