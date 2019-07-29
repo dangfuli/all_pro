@@ -1,0 +1,96 @@
+2019-07-05 10:38:07,996 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-05 10:38:09,627 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-05 10:38:26,083 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_bangdingzhifubao
+参数为：body:test_bangdingzhifubao
+params:{"type":"01","aliPay":"ceshi","userName":""}
+错误信息为:
+2019-07-05 10:39:29,462 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_chakantixianlishi
+参数为：body:test_chakantixianlishi
+params:{"type":"01"}
+错误信息为:
+2019-07-05 10:39:34,313 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jinrutixian
+参数为：body:test_jinrutixian
+params:{"type":"00"}
+错误信息为:
+2019-07-05 10:39:49,110 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tixianxiadan
+参数为：body:test_tixianxiadan
+params:{"type":"00","seqNum":"1","channel":"alipay","users":{"moIMEI":"86603936330893","deviceId":"test","clientId":"test"}}
+错误信息为:
+2019-07-05 10:39:50,746 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tuichuxiaoxizhongxin
+参数为：body:test_tuichuxiaoxizhongxin
+params:{"type":"01"}
+错误信息为:
+2019-07-05 10:40:03,997 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shujizhiding
+参数为：body:test_shujizhiding
+params:{"bookCode":"MY_7860","code":"2"}
+错误信息为:
+2019-07-05 10:58:54,232 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-05 10:58:55,857 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-05 10:59:12,369 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_bangdingzhifubao
+参数为：body:test_bangdingzhifubao
+params:{"type":"01","aliPay":"ceshi","userName":""}
+错误信息为:
+2019-07-05 11:00:15,762 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_chakantixianlishi
+参数为：body:test_chakantixianlishi
+params:{"type":"01"}
+错误信息为:
+2019-07-05 11:00:20,910 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jinrutixian
+参数为：body:test_jinrutixian
+params:{"type":"00"}
+错误信息为:
+2019-07-05 11:00:35,597 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tixianxiadan
+参数为：body:test_tixianxiadan
+params:{"type":"00","seqNum":"1","channel":"alipay","users":{"moIMEI":"86603936330893","deviceId":"test","clientId":"test"}}
+错误信息为:
+2019-07-05 11:00:37,234 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tuichuxiaoxizhongxin
+参数为：body:test_tuichuxiaoxizhongxin
+params:{"type":"01"}
+错误信息为:
+2019-07-05 11:00:50,425 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shujizhiding
+参数为：body:test_shujizhiding
+params:{"bookCode":"MY_7860","code":"2"}
+错误信息为:
+2019-07-05 11:15:31,580 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-05 11:15:33,207 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-05 11:15:49,759 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_bangdingzhifubao
+参数为：body:test_bangdingzhifubao
+params:{"type":"01","aliPay":"ceshi","userName":""}
+错误信息为:
+2019-07-05 11:16:53,099 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_chakantixianlishi
+参数为：body:test_chakantixianlishi
+params:{"type":"01"}
+错误信息为:
+2019-07-05 11:16:58,038 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jinrutixian
+参数为：body:test_jinrutixian
+params:{"type":"00"}
+错误信息为:
+2019-07-05 11:17:12,727 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tixianxiadan
+参数为：body:test_tixianxiadan
+params:{"type":"00","seqNum":"1","channel":"alipay","users":{"moIMEI":"86603936330893","deviceId":"test","clientId":"test"}}
+错误信息为:
+2019-07-05 11:17:14,355 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tuichuxiaoxizhongxin
+参数为：body:test_tuichuxiaoxizhongxin
+params:{"type":"01"}
+错误信息为:
+2019-07-05 11:17:27,513 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shujizhiding
+参数为：body:test_shujizhiding
+params:{"bookCode":"MY_7860","code":"2"}
+错误信息为:

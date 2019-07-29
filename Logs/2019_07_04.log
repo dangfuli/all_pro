@@ -1,0 +1,68 @@
+2019-07-04 18:04:00,383 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-04 18:04:02,108 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-04 18:05:37,017 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-04 18:05:38,781 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-04 18:06:34,726 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-04 18:06:36,586 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jrshujixiangqingye
+参数为：body:test_jrshujixiangqingye
+params:
+错误信息为:
+2019-07-04 18:06:55,323 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_bangdingzhifubao
+参数为：body:test_bangdingzhifubao
+params:{"type":"01","aliPay":"ceshi","userName":""}
+错误信息为:
+2019-07-04 18:07:59,052 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_chakantixianlishi
+参数为：body:test_chakantixianlishi
+params:{"type":"01"}
+错误信息为:
+2019-07-04 18:08:04,530 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_jinrutixian
+参数为：body:test_jinrutixian
+params:{"type":"00"}
+错误信息为:
+2019-07-04 18:08:20,602 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tixianxiadan
+参数为：body:test_tixianxiadan
+params:{"type":"00","seqNum":"1","channel":"alipay","users":{"moIMEI":"86603936330893","deviceId":"test","clientId":"test"}}
+错误信息为:
+2019-07-04 18:08:22,222 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_tuichuxiaoxizhongxin
+参数为：body:test_tuichuxiaoxizhongxin
+params:{"type":"01"}
+错误信息为:
+2019-07-04 18:08:35,830 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shujizhiding
+参数为：body:test_shujizhiding
+params:{"bookCode":"MY_7860","code":"2"}
+错误信息为:
+2019-07-05 06:15:06,661 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_pubuliushudan
+参数为：body:test_pubuliushudan
+params:
+错误信息为:HTTPConnectionPool(host='test.gaokaoceshi.cc', port=80): Max retries exceeded with url: /bserver/store?tagCode=32 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x121cbea58>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2019-07-05 08:55:48,217 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shuchengbanner
+参数为：body:test_shuchengbanner
+params:
+错误信息为:HTTPConnectionPool(host='test.gaokaoceshi.cc', port=80): Max retries exceeded with url: /bserver/store?type=00&bannerCode=02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x121c7b898>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2019-07-05 08:55:49,788 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shuchengbanner
+参数为：body:test_shuchengbanner
+params:
+错误信息为:HTTPConnectionPool(host='test.gaokaoceshi.cc', port=80): Max retries exceeded with url: /bserver/store?type=00&bannerCode=03 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1272f2630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2019-07-05 08:55:51,346 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shuchengbanner
+参数为：body:test_shuchengbanner
+params:
+错误信息为:HTTPConnectionPool(host='test.gaokaoceshi.cc', port=80): Max retries exceeded with url: /bserver/store?type=00&bannerCode=021 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1272f2208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2019-07-05 08:55:52,916 - Log.py - ERROR - 接口为：'bserver/record'，方法为：test_shuchengbanner
+参数为：body:test_shuchengbanner
+params:
+错误信息为:HTTPConnectionPool(host='test.gaokaoceshi.cc', port=80): Max retries exceeded with url: /bserver/store?type=00&bannerCode=20 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1272f2208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
