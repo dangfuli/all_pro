@@ -1,6 +1,6 @@
 # coding=utf-8
 import logging,os,time
-
+import inspect
 class Log:
     '''
     Log().info(msg)
@@ -20,8 +20,9 @@ class Log:
         # 等级设为debug
         self.logger.setLevel(logging.DEBUG)
         # 赋值format
-        self.format = logging.Formatter('%(asctime)s - %(filename)s - %(levelname)s - %(message)s')
+        self.format = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     def __console(self,level,msg):
+        ## 加上函数名称， 在msg中
         # 创建filehandler
         fh = logging.FileHandler(self.logname,'a+',encoding='utf-8')
         fh.setLevel(logging.DEBUG)
@@ -43,18 +44,26 @@ class Log:
         ## 删除handler，要不然输出重复日志
         self.logger.removeHandler(fh)
         self.logger.removeHandler(sh)
+
     def info(self,msg):
-        self.__console('info',msg)
+        _msg = f'所在文件：{os.path.basename(inspect.stack()[1][1])}; 所在函数：{inspect.stack()[1][3]}\n' + msg
+        self.__console('info',_msg)
+
     def debug(self,msg):
-        self.__console('debug',msg)
+        _msg = f'所在文件：{os.path.basename(inspect.stack()[1][1])}; 所在函数：{inspect.stack()[1][3]}\n' + msg
+        self.__console('debug',_msg)
+
     def warning(self,msg):
-        self.__console('warning',msg)
+        _msg = f'所在文件：{os.path.basename(inspect.stack()[1][1])}; 所在函数：{inspect.stack()[1][3]}\n' + msg
+        self.__console('warning',_msg)
+
     def error(self,msg):
-        self.__console('error',msg)
+        _msg = f'所在文件：{os.path.basename(inspect.stack()[1][1])}; 所在函数：{inspect.stack()[1][3]}\n' + msg
+        self.__console('error',_msg)
 
 if __name__ == '__main__':
     log = Log()
-    username='ligege'
-    password='haoshuai'
-    log.error('真理：%s,密码：%s'%(username,password))
+    username = 'ligege'
+    password = 'haoshuai'
+    log.error('真理：%s,密码：%s' % (username, password))
     # log.info('真理：{0},密码：{1}，'.format(username,password))
