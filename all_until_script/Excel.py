@@ -177,16 +177,16 @@ class ExcelUntil:
 
 if __name__ =='__main__':
     # p = r'/Users/dangfuli/Documents/log/p.xls'
-    #test = ExcelUntil(os.path.join(os.getcwd(),'taobao.xls'))
-    # test.create_Excel((0,0,'1'),(0,1,'2'),(0,2,'3'))
+    #log_tmp = ExcelUntil(os.path.join(os.getcwd(),'taobao.xls'))
+    # log_tmp.create_Excel((0,0,'1'),(0,1,'2'),(0,2,'3'))
     # print("123")
-    # t_read = test.read_row(row=1)
-    # t_read1 = test.read_row(sheetIndex=1)
-    # t1_read = test.read_row(sheetIndex=10)
-    # t3_read = test.read_row(sheetName='123')
-    # t4_read = test.read_row(sheetName='Sheet2')
-    # cr = test.read_col(col=2,sheetIndex=1)
-    # test.create_Excel()
+    # t_read = log_tmp.read_row(row=1)
+    # t_read1 = log_tmp.read_row(sheetIndex=1)
+    # t1_read = log_tmp.read_row(sheetIndex=10)
+    # t3_read = log_tmp.read_row(sheetName='123')
+    # t4_read = log_tmp.read_row(sheetName='Sheet2')
+    # cr = log_tmp.read_col(col=2,sheetIndex=1)
+    # log_tmp.create_Excel()
 
     pa = r'/Users/dangfuli/Documents/log/p.xls'
     t = ExcelUntil(pa)

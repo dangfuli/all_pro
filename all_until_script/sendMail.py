@@ -1,7 +1,8 @@
 # coding=utf-8
 
-import smtplib,time
-from lib.getConfig import *
+import smtplib
+import os
+import getConfig
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
