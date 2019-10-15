@@ -1,6 +1,6 @@
 # coding=utf-8
 import os,subprocess
-def getElement(file):
+def get_config(file):
     '''
     元素以json数据格式存储，此方法读取文件
     :param file: 数据文件，json格式
@@ -24,7 +24,7 @@ def getElement(file):
         print("can not find .json file")
         return {}
 
-def getDevices(EM_host=[]):
+def get_devices(EM_host=[]):
     '''
     获取设备devices
     :param EM_host:如果有模拟器，将模拟器host加到这个list里面
@@ -42,4 +42,4 @@ def getDevices(EM_host=[]):
 
 
 if __name__ == '__main__':
-    getElement(r"D:\auto\DFQ\elements\login.json")
+    get_config(r"D:\auto\DFQ\elements\login.json")

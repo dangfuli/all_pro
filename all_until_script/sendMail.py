@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
-mail_info = getConfig(os.path.join(os.path.dirname(os.path.dirname(__file__)),'config/qqMail.json'))
+mail_info = getConfig.get_config(os.path.join(os.path.dirname(os.path.dirname(__file__)),'config/qqMail.json'))
 # {
 #   "from": "623037035@qq.com",
 #   "password": "xspwqntmjvqwbcbd",
