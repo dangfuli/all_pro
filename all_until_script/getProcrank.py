@@ -1,11 +1,14 @@
-import os,subprocess,re
+import os,subprocess,re,time
+
 def _getDevice():
     # 获取所有设备devices,获得一个tuple
     deviceRsp = subprocess.Popen("adb devices",stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True).communicate()[0]
     # 正则提取一下设备device，return一个list
     device = re.findall('(.*)\tdevice',deviceRsp.decode('utf8'))
-    print(device)
-    return device
+    if device:
+        return device
+    else:
+        raise Exception("没有找到device设备信息，请检查")
 def _getFileName(to_file,device):
     # 打开文件，根据设备名称决定，默认用夜神模拟器，端口62001
     __device_list = []
@@ -17,7 +20,7 @@ def _getFileName(to_file,device):
         if to_file is None:
              __device_list.append('{0}/{1}.txt'.format(os.getcwd(),each))
              # 删除已有文件
-             if os.path.exists(__device_list):
+             if os.path.exists(__device_list[0]):
                  os.remove(__device_list)
         else:
             # 传入路径没有加后缀，给补上
@@ -28,11 +31,12 @@ def _getFileName(to_file,device):
                 break
     return __device_list
 
-def procrank(to_file=None,package=None,device='',e_num=1000):
+def procrank(to_file=None,package=None,device='',e_num=1000,interval=1):
     '''
     :param to_file:写入文件路径
     :param pakage: 包名
     :param e_num: 结束循环的次数
+    :param interval:每次获取的间隔时间，默认1s
     :return:
     '''
     # 检查设备id，如果没有id则获取
@@ -58,13 +62,25 @@ def procrank(to_file=None,package=None,device='',e_num=1000):
         cmd = 'adb shell procrank |findstr {0}'.format(package)
 
     # 循环获取procrank
+    start_time = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime())
+    print('开始时间为：',start_time)
     for n in range(e_num):
+        print(time.time())
         # windows解码byte类型变成了空,mac解码变成了str，统一用byte
         d = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True).stdout.read()
-        print(str(d))
-        f.write(str(d))
+        print(time.time())
+        ## 正则再次提取uss
+        dd = re.findall("(\d{3,11})K  %s"%package,str(d))
+        print(dd[0])
+        f.write(str(dd[0]))
+
+        time.sleep(interval)
+
+        # print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime()))
     f.close()
 
-if __name__ == '__main__':
-    to_file = '1.txt'
-    procrank(to_file,package='com.android.gallery3d',device='127.0.0.1:62001',e_num=240000)
+    end_time = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime())
+    print('结束时间为：',end_time)
+to_file = '1.txt'
+procrank(package='com.ziroom.awesome',device='emulator-5554',e_num=240000)
+
